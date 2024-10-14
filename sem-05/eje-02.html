@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diseño de Costa, Sierra y Selva</title>
+    <style>
+      body {
+        width: 1200px;
+        height: 800px;
+        margin: 0 auto;
+        font-family: Arial, sans-serif;
+      }
+
+      header,
+      nav,
+      section,
+      aside,
+      footer {
+        padding: 10px;
+        border: 2px dotted red;
+        margin-bottom: 10px;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      nav {
+        font-weight: bold;
+        font-style: italic;
+        color: darkblue;
+        display: flex;
+        justify-content: space-around;
+        background-color: #f0f0f0;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: darkblue;
+      }
+
+      section {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .content {
+        width: 65%;
+      }
+
+      .content h2 {
+        text-align: center;
+      }
+
+      .content p {
+        margin-bottom: 15px;
+      }
+
+      .images {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .images img {
+        width: 30%;
+      }
+
+      aside {
+        width: 30%;
+        background-color: #f0f0f0;
+        padding: 10px;
+        text-align: center;
+      }
+
+      footer {
+        text-align: right;
+        color: #00aaff;
+      }
+
+      .phrase {
+        font-weight: bold;
+        font-style: italic;
+        color: white;
+        background-color: green;
+        padding: 5px;
+        text-align: center;
+        column-count: 2;
+        column-gap: 40px;
+        border-top: 2px solid green;
+        border-bottom: 2px solid green;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Diseño de Costa, Sierra y Selva</h1>
+    </header>
+
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Costa</a>
+      <a href="#">Sierra</a>
+      <a href="#">Selva</a>
+    </nav>
+
+    <section>
+      <div class="content">
+        <h2>Costa</h2>
+        <p>Texto sobre la costa...</p>
+        <h2>Sierra</h2>
+        <p>Texto sobre la sierra...</p>
+        <h2>Selva</h2>
+        <p>Texto sobre la selva...</p>
+
+        <div class="images">
+          <img src="costa.jpg" alt="Imagen de la Costa" />
+          <img src="sierra.jpg" alt="Imagen de la Sierra" />
+          <img src="selva.jpg" alt="Imagen de la Selva" />
+        </div>
+      </div>
+
+      <aside>
+        <img src="mapa.jpg" alt="Mapa de Perú" />
+      </aside>
+    </section>
+
+    <div class="phrase">
+      Frase en negrita y cursiva, separada en dos columnas.
+    </div>
+
+    <footer>Autor: Pirulug</footer>
+  </body>
+</html>
