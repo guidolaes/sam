@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Diseño de Costa, Sierra y Selva</title>
+    <title>Las Tres Regiones del Perú: Costa, Sierra y Selva</title>
     <style>
       body {
         width: 1200px;
@@ -38,6 +38,16 @@
       nav a {
         text-decoration: none;
         color: darkblue;
+        padding: .5rem 1rem;
+        border-radius: .5rem;
+
+        transition: all .3s;
+      }
+
+      nav a:hover{
+        background: #00aaff;
+        padding: .5rem 1rem;
+        color: #fff;
       }
 
       section {
@@ -73,6 +83,10 @@
         text-align: center;
       }
 
+      aside img{
+        width: 100%;
+      }
+
       footer {
         text-align: right;
         color: #00aaff;
@@ -81,20 +95,20 @@
       .phrase {
         font-weight: bold;
         font-style: italic;
-        color: white;
-        background-color: green;
-        padding: 5px;
-        text-align: center;
         column-count: 2;
-        column-gap: 40px;
-        border-top: 2px solid green;
-        border-bottom: 2px solid green;
+        column-rule-style: solid;
+        column-width: 5px;
+        column-rule-color: #f05;
+        background: green;
+        color: #fff;
+        padding: 10px;
+        margin-bottom: 10px;
       }
     </style>
   </head>
   <body>
     <header>
-      <h1>Diseño de Costa, Sierra y Selva</h1>
+      <h1>Las Tres Regiones del Perú: Costa, Sierra y Selva</h1>
     </header>
 
     <nav>
@@ -107,28 +121,35 @@
     <section>
       <div class="content">
         <h2>Costa</h2>
-        <p>Texto sobre la costa...</p>
+        <p>
+          La costa peruana se extiende a lo largo del océano Pacífico, con un clima árido y playas impresionantes. Es una región rica en historia, hogar de culturas precolombinas y sitios arqueológicos como Chan Chan.
+        </p>
         <h2>Sierra</h2>
-        <p>Texto sobre la sierra...</p>
+        <p>
+          La sierra se caracteriza por sus majestuosas montañas andinas. En esta región se encuentra la famosa ciudad inca de Machu Picchu y una cultura viva que conserva tradiciones ancestrales.
+        </p>
         <h2>Selva</h2>
-        <p>Texto sobre la selva...</p>
+        <p>
+          La selva amazónica cubre gran parte del territorio peruano. Este vasto ecosistema es hogar de una increíble biodiversidad y es fundamental para el equilibrio ambiental del planeta.
+        </p>
 
         <div class="images">
-          <img src="costa.jpg" alt="Imagen de la Costa" />
-          <img src="sierra.jpg" alt="Imagen de la Sierra" />
-          <img src="selva.jpg" alt="Imagen de la Selva" />
+          <img src="img/costa.jpg" alt="Vista de la Costa" />
+          <img src="img/sierra.jpg" alt="Paisaje de la Sierra" />
+          <img src="img/selva.jpg" alt="Selva Amazónica" />
         </div>
       </div>
 
       <aside>
-        <img src="mapa.jpg" alt="Mapa de Perú" />
+        <img src="img/mapa.jpg" alt="Mapa de Perú" />
       </aside>
     </section>
 
     <div class="phrase">
-      Frase en negrita y cursiva, separada en dos columnas.
+      "Perú, un país de riqueza natural y cultural que se extiende desde las áridas costas del Pacífico, atravesando las imponentes montañas de los Andes, hasta llegar a la vasta y misteriosa selva amazónica. Un territorio donde la diversidad de paisajes se refleja en su gente, costumbres, sabores y tradiciones ancestrales que han perdurado a lo largo de los siglos."
+    
     </div>
 
-    <footer>Autor: Pirulug</footer>
+    <footer>Autor: Guido Laime</footer>
   </body>
 </html>
