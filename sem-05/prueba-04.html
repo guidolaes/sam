@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ess">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>01 ❤️</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 1rem;
+        min-width: 1024px;
+      }
+
+      .header {
+        background: #ff0;
+        padding: 0.5rem;
+        text-align: center;
+      }
+
+      .header h1,
+      .header h3 {
+        margin: 0;
+      }
+
+      .frace {
+        background: #aa0;
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
+      }
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 1rem;
+      }
+
+      .col {
+        flex: 1;
+        min-width: 300px;
+      }
+
+      .border-dotted {
+        border: dotted 2px #f05;
+        margin-bottom: 0.5rem;
+        padding: 0.5rem;
+
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .border-dotted img {
+        width: 150px;
+      }
+
+      .col img {
+        display: block;
+        margin: 0 auto;
+      }
+
+      footer {
+        background: red;
+        color: #fff;
+        padding: 0.5rem;
+
+        column-count: 2;
+        column-rule-style: solid;
+        column-rule-color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Las Regiones del Perú Geográficamente</h1>
+      <h2>Son tres regiones naturales que conforman el pais:</h2>
+      <h3>Costa, Sierra y Selva</h3>
+    </div>
+
+    <h3 class="frace">Valle del Mantaro, orgullo del centro del Perú</h3>
+
+    <section class="row">
+      <article class="col" style="background: green; padding: 0.5rem">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+          ullam aspernatur tenetur fugiat natus sequi autem pariatur
+          reprehenderit omnis qui rerum? Nulla unde obcaecati consequatur fugit
+          nihil soluta magnam eos?
+        </p>
+        <img src="img/costa.jpg" width="150px" />
+      </article>
+      <article class="col">
+        <div class="border-dotted">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea atque
+            perferendis reiciendis quibusdam vel fugit provident modi nihil
+            aperiam temporibus. Quos corporis impedit dicta, cum reprehenderit
+            officiis quo quod quam?
+          </p>
+          <img src="img/sierra.jpg" alt="" />
+        </div>
+        <div class="border-dotted">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea atque
+            perferendis reiciendis quibusdam vel fugit provident modi nihil
+            aperiam temporibus. Quos corporis impedit dicta, cum reprehenderit
+            officiis quo quod quam?
+          </p>
+          <img src="img/selva.jpg" alt="" />
+        </div>
+      </article>
+      <article class="col">
+        <h4>Mapa del Perú</h4>
+        <img src="img/mapa.jpg" width="100%" />
+      </article>
+    </section>
+    <footer>
+      "Al Péru lo llevo en las entrañas porque en el naci, creci y vivi aquellas
+      experiencias de niñez y juventud que moldearon mi personalidad. Fraguaron
+      mi vocacion, y porque alli ame, odie, sufri y soñe."
+    </footer>
+  </body>
+</html>
